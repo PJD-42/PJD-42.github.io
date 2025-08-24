@@ -1,0 +1,38 @@
+body {
+  background-color: #00d4ff; /* bright cyan background */
+  font-family: monospace;
+  color: #0011aa; /* dark blue text */
+  text-align: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  border-left: 4px dashed #0011aa;
+  border-right: 4px dashed #0011aa;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0011aa;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.cat-img {
+  margin-top: 20px;
+  max-width: 200px;
+}
